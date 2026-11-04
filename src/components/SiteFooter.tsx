@@ -45,27 +45,31 @@ export const SiteFooter: React.FC<SiteFooterProps> = ({ onNavigate }) => {
             </p>
           </div>
 
-          {/* 網站主要連結與三大分類 */}
+          {/* 網站主要連結與三大分類（分兩排呈現） */}
           <div>
             <nav className="footer-nav-links" aria-label="頁尾網站連結">
-              {TOP_NAV_ITEMS.map((item) => (
-                <a
-                  key={item.page}
-                  href={item.page}
-                  onClick={(e) => onNavigate(item.page, e)}
-                >
-                  {item.label}
-                </a>
-              ))}
-              {CATEGORIES.map((cat) => (
-                <a
-                  key={cat.id}
-                  href={cat.page}
-                  onClick={(e) => onNavigate(cat.page, e)}
-                >
-                  {cat.name}
-                </a>
-              ))}
+              <div className="footer-nav-row">
+                {TOP_NAV_ITEMS.map((item) => (
+                  <a
+                    key={item.page}
+                    href={item.page}
+                    onClick={(e) => onNavigate(item.page, e)}
+                  >
+                    {item.label}
+                  </a>
+                ))}
+              </div>
+              <div className="footer-nav-row">
+                {CATEGORIES.map((cat) => (
+                  <a
+                    key={cat.id}
+                    href={cat.page}
+                    onClick={(e) => onNavigate(cat.page, e)}
+                  >
+                    {cat.name}
+                  </a>
+                ))}
+              </div>
             </nav>
             <div style={{ marginTop: '10px', fontSize: '13.5px', color: '#57768A' }}>
               聯絡資訊：聯絡方式建置中
