@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" fill="none">
+  <defs>
+    <linearGradient id="lakeSky" x1="180" y1="0" x2="180" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D192E" />
+      <stop offset="60%" stop-color="#1D3852" />
+      <stop offset="100%" stop-color="#3A586E" />
+    </linearGradient>
+    <linearGradient id="lakeWater" x1="180" y1="220" x2="180" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#284358" />
+      <stop offset="50%" stop-color="#172B40" />
+      <stop offset="100%" stop-color="#0D192E" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="360" rx="28" fill="url(#lakeSky)" />
+  <!-- Milky way diagonal band -->
+  <path d="M40 0L240 220H150L0 55V0H40Z" fill="#E9C86A" fill-opacity="0.14" />
+  <path d="M75 0L225 215H175L25 0H75Z" fill="#FFF4D2" fill-opacity="0.18" />
+  <!-- Stars -->
+  <circle cx="70" cy="48" r="2" fill="#FFF" />
+  <circle cx="115" cy="82" r="2.2" fill="#F6DF96" />
+  <circle cx="155" cy="135" r="2.5" fill="#F6DF96" />
+  <circle cx="275" cy="60" r="1.8" fill="#FFF" />
+  <circle cx="310" cy="110" r="1.5" fill="#FFF" />
+  <circle cx="52" cy="145" r="1.5" fill="#FFF" />
+  <path d="M135 55L137 61L143 63L137 65L135 71L133 65L127 63L133 61L135 55Z" fill="#E9C86A" />
+  <!-- Mountains -->
+  <path d="M0 225L65 162L135 212L195 185L275 142L360 210V230H0V225Z" fill="#132437" />
+  <!-- Lake Water -->
+  <rect x="0" y="225" width="360" height="135" rx="0" fill="url(#lakeWater)" />
+  <!-- Golden Reflections -->
+  <ellipse cx="185" cy="245" rx="55" ry="10" fill="#E9C86A" fill-opacity="0.3" />
+  <ellipse cx="185" cy="272" rx="42" ry="7" fill="#E9C86A" fill-opacity="0.2" />
+  <ellipse cx="185" cy="298" rx="28" ry="5" fill="#E9C86A" fill-opacity="0.15" />
+  <!-- Lake Shore Silhouette -->
+  <path d="M0 225L95 232L0 245V225Z" fill="#0B1624" />
+  <path d="M360 225L255 234L360 248V225Z" fill="#0B1624" />
+</svg>

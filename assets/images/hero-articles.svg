@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="menuSky" x1="440" y1="10" x2="440" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#101D36" />
+      <stop offset="65%" stop-color="#1F3A4B" />
+      <stop offset="100%" stop-color="#35586E" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="24" fill="#F4F1EA" />
+
+  <!-- Starry Arch on Right -->
+  <path d="M290 330V145C290 65 355 15 445 15C535 15 600 65 600 145V330H290Z" fill="url(#menuSky)" stroke="#D8CCB8" stroke-width="6" />
+
+  <!-- Golden Starlight Swirl -->
+  <path d="M395 295C435 265 485 235 465 185C445 140 505 110 555 85" stroke="#E9C86A" stroke-width="4" stroke-linecap="round" />
+  <path d="M325 65L328 73L336 76L328 79L325 87L322 79L314 76L322 73L325 65Z" fill="#E9C86A" />
+  <path d="M552 135L555 143L563 146L555 149L552 157L549 149L541 146L549 143L552 135Z" fill="#F6DF96" />
+
+  <!-- Floating Knowledge Cards -->
+  <g transform="translate(345, 78)">
+    <rect width="74" height="62" rx="10" fill="#FFFFFF" fill-opacity="0.2" stroke="#9BC2E2" stroke-width="1.5" />
+    <text x="37" y="40" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="24" font-weight="700">AI</text>
+  </g>
+  <g transform="translate(385, 165)">
+    <rect width="76" height="60" rx="10" fill="#FFFFFF" fill-opacity="0.2" stroke="#F6DF96" stroke-width="1.5" />
+    <rect x="18" y="32" width="9" height="16" rx="1.5" fill="#9BC2E2" />
+    <rect x="33" y="24" width="9" height="24" rx="1.5" fill="#E9C86A" />
+    <rect x="48" y="16" width="9" height="32" rx="1.5" fill="#FFF" />
+  </g>
+  <g transform="translate(475, 132)">
+    <rect width="84" height="64" rx="10" fill="#FFFFFF" fill-opacity="0.2" stroke="#9BC2E2" stroke-width="1.5" />
+    <line x1="16" y1="22" x2="68" y2="22" stroke="#FFF" stroke-width="3" stroke-linecap="round" />
+    <line x1="16" y1="34" x2="58" y2="34" stroke="#9BC2E2" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="16" y1="46" x2="64" y2="46" stroke="#E9C86A" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Desk Surface -->
+  <rect x="0" y="320" width="640" height="100" fill="#E2D9C8" />
+  <line x1="0" y1="320" x2="640" y2="320" stroke="#C8B9A2" stroke-width="3" />
+
+  <!-- Open Glowing Book on Desk -->
+  <g transform="translate(295, 275)">
+    <path d="M10 42C45 26 88 26 122 44C155 26 198 26 232 42L242 54C198 40 155 42 122 58C88 42 45 40 0 54L10 42Z" fill="#FFFDF7" stroke="#A69478" stroke-width="2" />
+  </g>
+
+  <!-- Laptop at Right -->
+  <g transform="translate(470, 238)">
+    <path d="M25 0H145L125 95H5L25 0Z" fill="#1F3A4B" stroke="#101D36" stroke-width="2.5" />
+    <path d="M-25 95H125L115 103H-35L-25 95Z" fill="#B8C4CE" stroke="#1F3A4B" stroke-width="2" />
+  </g>
+</svg>

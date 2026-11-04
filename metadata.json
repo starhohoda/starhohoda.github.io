@@ -1,0 +1,6 @@
+{
+  "name": "星河數位文創",
+  "description": "從 AI 學習到數位創作｜提供 AI 實戰應用、數位工具實測及效率工作教學的繁體中文知識型品牌網站。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

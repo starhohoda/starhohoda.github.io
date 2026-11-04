@@ -1,0 +1,486 @@
+export type PageId =
+  | 'index.html'
+  | 'brand.html'
+  | 'author.html'
+  | 'articles.html'
+  | 'articles-ai.html'
+  | 'articles-tools.html'
+  | 'articles-work.html'
+  | 'about.html';
+
+export type CategoryId = 'ai' | 'tools' | 'work';
+
+export type CategoryName = 'AI實戰應用' | '數位工具實測' | '效率工作教學';
+
+export interface CategoryMeta {
+  id: CategoryId;
+  name: CategoryName;
+  page: PageId;
+  colorClass: 'cat-ai' | 'cat-tools' | 'cat-work';
+  labelClass: 'label-ai' | 'label-tools' | 'label-work';
+  icon: string;
+  iconAlt: string;
+  shortDesc: string;
+  menuDesc: string;
+  aboutDesc: string;
+  pageIntro: string;
+}
+
+export interface ArticleUnit {
+  id: string;
+  title: string;
+  category: CategoryName;
+  categoryId: CategoryId;
+  summary: string;
+  intro: string;
+  keyPoints: string[];
+  exampleTitle: string;
+  exampleText: string;
+  coverImage: string;
+  imageAlt: string;
+  figureCaption: string;
+  tags: string[];
+  status: string;
+  verifiedDate: string;
+  updatedDate: string;
+  url: string;
+  anchor: string;
+  featured: boolean;
+}
+
+export interface FaqItem {
+  id: string;
+  question: string;
+  answer: string;
+}
+
+export interface PageSeoMeta {
+  page: PageId;
+  code: string;
+  navName: string;
+  title: string;
+  description: string;
+  h1: string;
+}
+
+export const BRAND_CONFIG = {
+  brandName: '星河數位文創',
+  primarySlogan: '從 AI 學習到數位創作',
+  secondarySlogan: '讓每一次操作都成為新的可能',
+  miniTagline: '探索工具・實作知識・創造更多可能',
+  authorName: '銀河霜月',
+  version: 'V0.3'
+} as const;
+
+export const TOP_NAV_ITEMS: Array<{
+  label: string;
+  page: PageId;
+  hasSubmenu?: boolean;
+}> = [
+  { label: '首頁', page: 'index.html' },
+  { label: '品牌故事', page: 'brand.html' },
+  { label: '作者介紹', page: 'author.html' },
+  { label: '文章選單', page: 'articles.html', hasSubmenu: true },
+  { label: '關於', page: 'about.html' }
+];
+
+export const PAGE_SEO_MAP: Record<PageId, PageSeoMeta> = {
+  'index.html': {
+    page: 'index.html',
+    code: 'P01',
+    navName: '首頁',
+    title: '星河數位文創｜從 AI 學習到數位創作',
+    description:
+      '星河數位文創提供 AI 實戰應用、數位工具實測及效率工作教學，從實際應用出發，讓每一次操作都成為新的可能。',
+    h1: '從 AI 學習到數位創作'
+  },
+  'brand.html': {
+    page: 'brand.html',
+    code: 'P02',
+    navName: '品牌故事',
+    title: '品牌故事｜星河數位文創',
+    description:
+      '了解星河數位文創的品牌理念：從好奇開始，透過實際操作、持續學習與創意實現，讓學習成為創造的力量。',
+    h1: '品牌故事'
+  },
+  'author.html': {
+    page: 'author.html',
+    code: 'P03',
+    navName: '作者介紹',
+    title: '作者介紹：銀河霜月｜星河數位文創',
+    description:
+      '認識星河數位文創內容作者「銀河霜月」，在學習、實作與創作之間，持續探索 AI 工具應用、數位知識整理與內容創作。',
+    h1: '作者介紹'
+  },
+  'articles.html': {
+    page: 'articles.html',
+    code: 'P04',
+    navName: '文章選單',
+    title: '文章選單總覽｜星河數位文創',
+    description:
+      '探索星河數位文創三大知識主題：AI實戰應用、數位工具實測、效率工作教學，找到適合自己的數位學習內容。',
+    h1: '文章選單'
+  },
+  'articles-ai.html': {
+    page: 'articles-ai.html',
+    code: 'P05',
+    navName: 'AI實戰應用',
+    title: 'AI實戰應用｜星河數位文創',
+    description:
+      '從真實需求出發，學習如何使用 AI 工具完成具體任務：包含 ChatGPT 提示語入門、AI 回答查證與修正、AI 圖片生成入門。',
+    h1: 'AI實戰應用'
+  },
+  'articles-tools.html': {
+    page: 'articles-tools.html',
+    code: 'P06',
+    navName: '數位工具實測',
+    title: '數位工具實測｜星河數位文創',
+    description:
+      '認識數位工具的功能、操作方式、適用情境與限制：包含 Google AI Studio 網站實作、ChatGPT 與 Gemini 工具比較方法、NotebookLM 資料整理應用。',
+    h1: '數位工具實測'
+  },
+  'articles-work.html': {
+    page: 'articles-work.html',
+    code: 'P07',
+    navName: '效率工作教學',
+    title: '效率工作教學｜星河數位文創',
+    description:
+      '透過數位工具與 AI 輔助，整理工作資料並改善日常行政流程：包含 AI 協助整理 Excel、AI 協助整理行政文件、AI 輔助簡報內容規劃。',
+    h1: '效率工作教學'
+  },
+  'about.html': {
+    page: 'about.html',
+    code: 'P08',
+    navName: '關於本站',
+    title: '關於本站｜星河數位文創',
+    description:
+      '認識星河數位文創的網站用途、三大內容分類、閱讀與使用提醒、常見問題 FAQ 與聯絡資訊。',
+    h1: '關於本站'
+  }
+};
+
+export const CATEGORIES: CategoryMeta[] = [
+  {
+    id: 'ai',
+    name: 'AI實戰應用',
+    page: 'articles-ai.html',
+    colorClass: 'cat-ai',
+    labelClass: 'label-ai',
+    icon: 'assets/icons/cat-ai.svg',
+    iconAlt: 'AI 機器人與對話框圖示',
+    shortDesc: '從工具操作到實際任務，學習如何運用 AI 解決問題。',
+    menuDesc: '從實際情境出發，學習如何運用 AI 完成任務。',
+    aboutDesc: '從實際情境學習 AI 操作。',
+    pageIntro: '從真實需求出發，學習如何使用 AI 工具完成具體任務。'
+  },
+  {
+    id: 'tools',
+    name: '數位工具實測',
+    page: 'articles-tools.html',
+    colorClass: 'cat-tools',
+    labelClass: 'label-tools',
+    icon: 'assets/icons/cat-tools.svg',
+    iconAlt: '筆記型電腦、工具與放大鏡圖示',
+    shortDesc: '探索工具特色、操作效果及使用限制。',
+    menuDesc: '探索數位工具的特色、操作效果與使用限制。',
+    aboutDesc: '認識工具功能、效果與限制。',
+    pageIntro: '認識數位工具的功能、操作方式、適用情境與限制。'
+  },
+  {
+    id: 'work',
+    name: '效率工作教學',
+    page: 'articles-work.html',
+    colorClass: 'cat-work',
+    labelClass: 'label-work',
+    icon: 'assets/icons/cat-work.svg',
+    iconAlt: '文件、流程箭頭與圖表圖示',
+    shortDesc: '改善文書處理與日常工作流程。',
+    menuDesc: '運用數位方法，改善文書處理與日常工作流程。',
+    aboutDesc: '改善文書處理與日常工作流程。',
+    pageIntro: '透過數位工具與 AI 輔助，整理工作資料並改善日常行政流程。'
+  }
+];
+
+export const ARTICLES: ArticleUnit[] = [
+  {
+    id: 'A01',
+    title: 'ChatGPT 提示語入門',
+    category: 'AI實戰應用',
+    categoryId: 'ai',
+    summary:
+      '學習如何提出清楚的問題、提供背景條件並指定輸出格式，讓 AI 更容易理解你的實際需求。',
+    intro:
+      '剛開始接觸對話式 AI 時，若只輸入過於簡短的詞彙，往往只能得到籠統的回答。透過清楚描述任務背景、限制條件與期望格式，能大幅提升回覆的實用度。',
+    keyPoints: [
+      '為什麼清楚描述任務很重要：明確指出「要解決什麼問題」與「內容給誰看」，避免 AI 自行猜測方向。',
+      '如何提供背景與限制：補充使用情境、字數範圍、語氣風格（例如：溫和易懂、避免未解釋的專業術語）。',
+      '如何指定回答格式：要求 AI 以「條列重點」、「步驟說明」或「對照表格」呈現，方便後續閱讀與整理。',
+      '逐步調整與追問：先取得初步草稿，再針對細節提出具體修改要求，不必一次追求完美指令。'
+    ],
+    exampleTitle: '簡單提示語範例（示範內容）',
+    exampleText:
+      '「我想要撰寫一份給行政同事看的數位工具分享大綱。請用臺灣繁體中文，列出 3 個日常文書整理常見痛點與對應的 AI 協助方式，並以『條列式重點＋簡短說明』格式呈現，每點控制在 80 字以內。」',
+    coverImage: 'assets/images/unit-a01.svg',
+    imageAlt: 'ChatGPT 提示語入門：任務與背景、範圍與限制、輸出格式三階段結構示意圖',
+    figureCaption: '圖 A01：提示語基礎結構示意（任務背景 ＋ 範圍限制 ＋ 指定輸出格式）',
+    tags: ['提示語基礎', 'AI對話', '入門教學'],
+    status: '已發布（示範內容）',
+    verifiedDate: '示範教學規劃',
+    updatedDate: '2026-10-29',
+    url: 'articles-ai.html#A01',
+    anchor: 'A01',
+    featured: true
+  },
+  {
+    id: 'A02',
+    title: 'AI 回答查證與修正',
+    category: 'AI實戰應用',
+    categoryId: 'ai',
+    summary:
+      '認識 AI 回覆可能出現的錯誤類型，透過追問不確定處與原始資料交叉比對，確保資訊正確。',
+    intro:
+      '生成式 AI 擅長整理語句與提供構想，但有時也會產生看似流暢卻與事實不符的內容。養成查證與修正的習慣，是安全運用 AI 工具的關鍵步驟。',
+    keyPoints: [
+      '認識 AI 回答可能存在錯誤：AI 是根據語意機率生成文字，並非即時查閱所有官方資料庫。',
+      '辨認需要優先驗證的內容：凡涉及具體日期、統計數據、法規條文、專有名詞與歷史事實，都應列為必查項目。',
+      '要求 AI 說明不確定之處：在提示語中加入「若有不確定或缺乏依據的部分，請直接標註說明，不要自行推測」。',
+      '使用可靠資料交叉檢查：將 AI 整理的結論與原始文件、官方網站公告或權威來源逐一核對後再採用。'
+    ],
+    exampleTitle: '查證與修正提示語範例（示範內容）',
+    exampleText:
+      '「請幫我整理以下文章的 4 個重點。請完全根據我提供的原文整理，不要加入原文沒有提到的數據；如果有語意模糊的地方，請在後方加上『（待確認原文）』標記。」',
+    coverImage: 'assets/images/unit-a02.svg',
+    imageAlt: 'AI 回答查證與修正三步驟：辨識關鍵資訊、追問不確定處、原始來源核對示意圖',
+    figureCaption: '圖 A02：AI 回答查證流程（辨識關鍵資訊 → 追問不確定處 → 原始來源核對）',
+    tags: ['資訊查證', '事實核對', 'AI素養'],
+    status: '已發布（示範內容）',
+    verifiedDate: '示範教學規劃',
+    updatedDate: '2026-10-29',
+    url: 'articles-ai.html#A02',
+    anchor: 'A02',
+    featured: false
+  },
+  {
+    id: 'A03',
+    title: 'AI 圖片生成入門',
+    category: 'AI實戰應用',
+    categoryId: 'ai',
+    summary:
+      '掌握主體、場景、視覺風格與畫面比例四大描述元素，並學習檢查生成圖片的細節品質。',
+    intro:
+      '使用 AI 協助產生插畫或視覺配圖時，清楚描述畫面的結構元素，能讓產出結果更貼近文章主題與品牌調性。',
+    keyPoints: [
+      '圖片提示語的基本元素：拆解為「畫面主體」、「背景場景」、「光影與色調」、「整體藝術風格」四個層次。',
+      '設定主體、場景、風格與比例：例如指定「打開的書本與筆電（主體）」、「夜晚窗邊與星空（場景）」、「溫和現代數位插畫（風格）」與「16:9 橫幅比例」。',
+      '具體描述畫面需求：使用明確的視覺形容詞（如：深藍色夜空、柔和暖白桌面、簡潔構圖），避免抽象口號。',
+      '生成結果的基本檢查：仔細檢視畫面中的手指結構、器物邊緣、文字是否變形亂碼，以及光影方向是否自然合理。'
+    ],
+    exampleTitle: '圖片生成描述與檢查提醒（示範內容）',
+    exampleText:
+      '描述範例：「溫和現代數位插畫風格，書桌上放著打開的筆記本與筆記型電腦，窗外是深藍色夜空與金色星光，色調溫暖柔和，橫向 16:9 構圖。」提醒：AI 生成的示意圖不可宣稱為真實攝影或軟體真實截圖。',
+    coverImage: 'assets/images/unit-a03.svg',
+    imageAlt: 'AI 圖片生成入門：主體、場景、風格、比例四大要素與畫面檢查示意圖',
+    figureCaption: '圖 A03：圖片提示語四大要素與生成後細節檢查重點',
+    tags: ['AI繪圖', '視覺構圖', '提示語結構'],
+    status: '已發布（示範內容）',
+    verifiedDate: '示範教學規劃',
+    updatedDate: '2026-10-29',
+    url: 'articles-ai.html#A03',
+    anchor: 'A03',
+    featured: false
+  },
+  {
+    id: 'B01',
+    title: 'Google AI Studio 網站實作',
+    category: '數位工具實測',
+    categoryId: 'tools',
+    summary:
+      '從整理網站規格需求到建立介面原型，認識 AI 輔助建站的流程，並區分預覽、匯出與正式部署。',
+    intro:
+      '透過 Google AI Studio 等開發輔助環境，使用者可以用結構化的文字規格描述網站需求，快速建立可互動的網頁原型，並進一步檢查版面與導覽體驗。（本單元為功能概覽與操作規劃）',
+    keyPoints: [
+      '使用 AI 描述網站需求：預先整理好品牌定位、頁面結構、色彩變數與導覽階層，讓建置方向清楚明確。',
+      '建立網頁原型：分階段確認頁首、主視覺、內容卡片與頁尾，優先確保結構完整與文字清晰可讀。',
+      '檢查導覽與視覺設計：實際點擊各個分頁連結、手機版漢堡選單與子分類展開按鈕，確認沒有遮擋或失效連結。',
+      '區分預覽、原始碼匯出與正式發布：開發環境中的即時預覽僅供測試；若要長期公開瀏覽，需將靜態 HTML/CSS/JS 檔案匯出並部署至靜態網站託管服務。'
+    ],
+    exampleTitle: '操作規劃與環境提醒（功能概覽／待實測）',
+    exampleText:
+      '注意事項：預覽環境可能預設採用前端框架（如 React + Vite）。若目標是部署至純靜態空間，應同步確認獨立的 HTML、CSS 與 JavaScript 檔案結構是否完整，並檢查所有相對路徑與圖片素材是否能獨立載入。',
+    coverImage: 'assets/images/unit-b01.svg',
+    imageAlt: 'Google AI Studio 網站實作流程：描述需求、建立原型、檢查互動、匯出與發布四步驟示意圖',
+    figureCaption: '圖 B01：AI 輔助網站建置流程概覽（描述需求 → 建立原型 → 檢查互動 → 匯出部署）',
+    tags: ['網站實作', '原型規劃', '功能概覽'],
+    status: '已發布（功能概覽／操作規劃）',
+    verifiedDate: '操作規劃（待完整實測紀錄）',
+    updatedDate: '2026-10-29',
+    url: 'articles-tools.html#B01',
+    anchor: 'B01',
+    featured: true
+  },
+  {
+    id: 'B02',
+    title: 'ChatGPT 與 Gemini 工具比較方法',
+    category: '數位工具實測',
+    categoryId: 'tools',
+    summary:
+      '學習如何設計公平的測試任務與客觀評估標準，真實記錄不同 AI 工具的操作表現。',
+    intro:
+      '面對多種對話式 AI 工具時，若每次輸入不同的問題，很難判斷哪一個工具較適合自己的工作流程。建立一致的比較方法，才能獲得有參考價值的觀察紀錄。（本單元為比較方法規劃，待實測）',
+    keyPoints: [
+      '為什麼需要使用相同任務比較工具：在不同工具中輸入完全相同的提示語與背景資料，才能排除提問方式差異帶來的影響。',
+      '如何設定比較標準：可從「指令理解準確度」、「繁體中文語句自然度」、「格式遵循程度」與「是否需要多次修正」四個面向觀察。',
+      '如何記錄實際操作結果：保留原始提示語、首次回覆內容、追問修正次數與操作日期，建立可回顧的對照表。',
+      '避免未經測試就主觀宣稱優劣：工具表現會隨任務類型與版本更新而變化，應根據實際測試紀錄描述適用情境，不作誇大定論。'
+    ],
+    exampleTitle: '工具比較紀錄表設計（操作規劃／待實測）',
+    exampleText:
+      '建議紀錄欄位：【測試日期】、【任務主題（如：300字會議摘要）】、【輸入提示語】、【工具 A 輸出觀察】、【工具 B 輸出觀察】、【人工修正項目】。目前本項目為方法規劃示範，尚未填入特定版本之實測結論。',
+    coverImage: 'assets/images/unit-b02.svg',
+    imageAlt: 'ChatGPT 與 Gemini 工具客觀比較紀錄表設計示意圖',
+    figureCaption: '圖 B02：AI 工具客觀比較方法與紀錄表結構（操作規劃示範）',
+    tags: ['工具比較', '測試方法', '待實測規劃'],
+    status: '已發布（操作規劃／待實測）',
+    verifiedDate: '待實測',
+    updatedDate: '2026-10-29',
+    url: 'articles-tools.html#B02',
+    anchor: 'B02',
+    featured: false
+  },
+  {
+    id: 'B03',
+    title: 'NotebookLM 資料整理應用',
+    category: '數位工具實測',
+    categoryId: 'tools',
+    summary:
+      '認識以指定來源文件為基礎的 AI 整理工具，掌握匯入前檢查、依來源提問與核對出處的流程。',
+    intro:
+      '當手邊有多份講義、研究筆記或長篇報告需要整理時，文件型 AI 工具能協助根據上傳的資料進行摘要與問答，降低跨文件查找的時間成本。（本單元為功能概覽與操作規劃）',
+    keyPoints: [
+      '文件型 AI 工具的應用情境：適合用於整理公開講義、專案參考資料、讀書筆記彙整與長篇文件重點提取。',
+      '匯入資料前需要注意的事項：上傳前務必先檢查檔案內容，移除個人隱私資訊、內部機密數據或未經授權的文件。',
+      '如何根據資料提出問題：明確要求工具「僅根據已上傳的來源文件回答」，並可指定依章節或主題分類列出重點。',
+      '檢查整理結果與來源的一致性：善用工具提供的段落引用標記，點開原始段落核對摘要是否準確反映原意。'
+    ],
+    exampleTitle: '來源導向提問示範（功能概覽／待實測）',
+    exampleText:
+      '提問範例：「請根據我上傳的這份教學手冊，整理出初學者最需要注意的 5 個操作步驟，並在每一點後方標註對應的原始章節名稱；若文件內未提及的內容請勿自行補充。」',
+    coverImage: 'assets/images/unit-b03.svg',
+    imageAlt: 'NotebookLM 資料整理應用：匯入來源文件、依資料提問、核對段落來源三階段示意圖',
+    figureCaption: '圖 B03：文件型 AI 工具整理與來源核對流程（功能概覽）',
+    tags: ['知識整理', '文件摘要', '功能概覽'],
+    status: '已發布（功能概覽／待實測）',
+    verifiedDate: '待實測',
+    updatedDate: '2026-10-29',
+    url: 'articles-tools.html#B03',
+    anchor: 'B03',
+    featured: false
+  },
+  {
+    id: 'C01',
+    title: 'AI 協助整理 Excel',
+    category: '效率工作教學',
+    categoryId: 'work',
+    summary:
+      '運用 AI 協助檢查試算表欄位結構、找出空白與異常值，並規劃基礎統計問題與驗算步驟。',
+    intro:
+      '日常處理 Excel 試算表時，最花時間的往往不是寫複雜公式，而是前期整理雜亂的欄位與格式。透過結構化的檢查步驟搭配 AI 輔助，能讓試算表整理更有條理。',
+    keyPoints: [
+      '檢查欄位名稱與結構：先確認第一列標題是否清楚唯一（如：日期、部門、項目、金額），避免在資料區使用合併儲存格。',
+      '找出空白值與異常資料：整理前先篩選是否有漏填欄位、重複登錄列，或將數字誤存為文字格式的情況。',
+      '設計基本統計問題：向 AI 清楚描述表格有哪些欄位，再請它建議適合的函數（如 SUMIFS、COUNTIF）或樞紐分析表配置方式。',
+      '針對分析結果提出檢查建議：套用公式後，先以人工抽樣 3 至 5 筆資料驗算小計是否正確，確認邏輯無誤再套用至整份表格。'
+    ],
+    exampleTitle: '試算表整理提示語範例（示範內容）',
+    exampleText:
+      '「我有一份行政支出試算表，欄位包含：A欄日期、B欄申請部門、C欄項目說明、D欄金額。請告訴我：1. 統計前建議先檢查哪些常見格式錯誤？ 2. 若想在另一張工作表依『申請部門』統計每月總金額，可以使用什麼公式？」',
+    coverImage: 'assets/images/unit-c01.svg',
+    imageAlt: 'AI 協助整理 Excel：檢查欄位名稱、找出異常與空白、統計與驗算流程示意圖',
+    figureCaption: '圖 C01：試算表結構檢查與 AI 輔助統計驗證流程',
+    tags: ['Excel整理', '資料檢查', '行政效率'],
+    status: '已發布（示範內容）',
+    verifiedDate: '示範教學規劃',
+    updatedDate: '2026-10-29',
+    url: 'articles-work.html#C01',
+    anchor: 'C01',
+    featured: true
+  },
+  {
+    id: 'C02',
+    title: 'AI 協助整理行政文件',
+    category: '效率工作教學',
+    categoryId: 'work',
+    summary:
+      '將冗長的會議紀錄或行政通知轉換為結構化摘要與待辦條列，並落實關鍵資訊的人工核對。',
+    intro:
+      '面對長篇幅的說明文件或會議紀錄時，利用 AI 協助提取主旨與分類條列，可以幫助團隊快速掌握重點並減少閱讀負擔。',
+    keyPoints: [
+      '整理文件核心重點：先請 AI 用一至兩句話總結文件的核心目的與適用對象。',
+      '將長篇文字轉換成摘要：把多段落敘述濃縮為結構清晰的重點摘要，保留關鍵背景與結論。',
+      '建立分類與待辦條列：依「決議事項」、「待辦行動」、「負責單位」與「預計時程」分項條列，方便後續追蹤。',
+      '嚴格檢查名稱、日期與數字：摘要完成後，務必逐一對照原文中的人名、單位名稱、日期時間與金額數字，避免在濃縮過程中發生遺漏或誤植。'
+    ],
+    exampleTitle: '行政文件整理提示語範例（示範內容）',
+    exampleText:
+      '「請將以下活動籌備會議紀錄整理成三個部分：1. 會議主旨（50字內）；2. 重要決議事項（條列式）；3. 後續待辦清單（標註負責組別與截止日期）。請完全依照原文資訊整理，不可自行更改任何日期與數字。」',
+    coverImage: 'assets/images/unit-c02.svg',
+    imageAlt: 'AI 協助整理行政文件：原始長篇文件轉換為結構化摘要、待辦條列與人工核對示意圖',
+    figureCaption: '圖 C02：長篇行政文件轉化為結構化條列與人工核對重點',
+    tags: ['行政文書', '會議摘要', '條列整理'],
+    status: '已發布（示範內容）',
+    verifiedDate: '示範教學規劃',
+    updatedDate: '2026-10-29',
+    url: 'articles-work.html#C02',
+    anchor: 'C02',
+    featured: false
+  },
+  {
+    id: 'C03',
+    title: 'AI 輔助簡報內容規劃',
+    category: '效率工作教學',
+    categoryId: 'work',
+    summary:
+      '在動手排版前，先運用 AI 釐清簡報目的與聽眾需求，建立邏輯清楚的投影片大綱與資訊順序。',
+    intro:
+      '製作簡報時若直接打開軟體排版，容易陷入版面細節而忽略整體邏輯。先使用 AI 協助梳理簡報目的、聽眾背景與各頁大綱，能讓簡報架構更加明確。',
+    keyPoints: [
+      '確定簡報目的：先釐清這份簡報是要「教學說明」、「專案提案」還是「成果回報」，確立核心傳達目標。',
+      '確定聽眾背景：思考聽眾是初學者、部門同事或決策主管，調整內容的深淺度與用詞方式。',
+      '建立簡報大綱：請 AI 依主題規劃 6 至 8 頁投影片架構，明確列出每一頁的標題與 3 個核心要點。',
+      '安排資訊順序：採用「背景與問題 → 解決方法與步驟 → 實際案例或注意事項 → 總結與下一步」的清晰脈絡。',
+      '檢查內容是否與主題一致：逐頁檢視是否維持「一頁一重點」原則，刪除偏離主題或過於冗長的文字段落。'
+    ],
+    exampleTitle: '簡報大綱規劃提示語範例（示範內容）',
+    exampleText:
+      '「我要準備一份 15 分鐘的內部學習分享簡報，主題是『初學者的 AI 文書整理入門』，聽眾是一般行政人員。請幫我規劃 6 頁投影片大綱，包含每頁標題與 3 點精簡內文，並確保內容由淺入深、前後呼應。」',
+    coverImage: 'assets/images/unit-c03.svg',
+    imageAlt: 'AI 輔助簡報內容規劃五步驟：確定目的、設定聽眾、建立大綱、安排順序、檢查一致示意圖',
+    figureCaption: '圖 C03：簡報內容規劃五步驟（目的 → 聽眾 → 大綱 → 順序 → 一致性檢查）',
+    tags: ['簡報規劃', '大綱設計', '工作流程'],
+    status: '已發布（示範內容）',
+    verifiedDate: '示範教學規劃',
+    updatedDate: '2026-10-29',
+    url: 'articles-work.html#C03',
+    anchor: 'C03',
+    featured: false
+  }
+];
+
+export const FAQS: FaqItem[] = [
+  {
+    id: 'faq-1',
+    question: '這個網站適合誰？',
+    answer: '適合希望學習 AI、數位工具及工作效率方法的初學者。'
+  },
+  {
+    id: 'faq-2',
+    question: '文章會持續更新嗎？',
+    answer: '網站將依實際學習及內容製作進度逐步更新，不設定尚未確認的固定更新承諾。'
+  },
+  {
+    id: 'faq-3',
+    question: '可以從哪個分類開始學習？',
+    answer:
+      '如果是第一次接觸 AI，可以先閱讀『AI實戰應用』；若有特定工作需求，也可以直接進入其他分類。'
+  }
+];

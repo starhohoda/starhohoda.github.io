@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" fill="none">
+  <defs>
+    <linearGradient id="aboutSky" x1="450" y1="0" x2="450" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A3550" />
+      <stop offset="60%" stop-color="#3A6484" />
+      <stop offset="100%" stop-color="#7FA6C4" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" rx="24" fill="#F5F3EC" />
+
+  <!-- Window Frame with Sky & Clouds -->
+  <rect x="330" y="16" width="280" height="230" rx="12" fill="url(#aboutSky)" stroke="#DFD7C8" stroke-width="6" />
+  <circle cx="420" cy="65" r="2" fill="#FFF" />
+  <circle cx="515" cy="48" r="2.2" fill="#F6DF96" />
+  <path d="M475 72L477 78L483 80L477 82L475 88L473 82L467 80L473 78L475 72Z" fill="#E9C86A" />
+
+  <!-- Desk -->
+  <rect x="0" y="255" width="640" height="125" fill="#E5DCCB" />
+  <line x1="0" y1="255" x2="640" y2="255" stroke="#CBBCA4" stroke-width="3" />
+
+  <!-- Laptop with Crescent Moon Screen -->
+  <g transform="translate(365, 145)">
+    <rect x="18" y="0" width="148" height="98" rx="7" fill="#1F3A4B" stroke="#101D36" stroke-width="3" />
+    <rect x="24" y="6" width="136" height="86" rx="4" fill="#172E46" />
+    <!-- Moon & Mountains inside Laptop Screen -->
+    <path d="M98 24C89 24 82 31 82 40C82 49 89 56 98 56C102 56 105 55 108 52C100 52 94 46 94 38C94 30 100 24 108 24C105 24 101 24 98 24Z" fill="#F6DF96" />
+    <path d="M24 76L58 52L92 72L128 48L160 74V92H24V76Z" fill="#2A4D6C" />
+    <!-- Laptop Keyboard Base -->
+    <path d="M0 98H184L168 116H-16L0 98Z" fill="#D5DEE6" stroke="#1F3A4B" stroke-width="2.5" stroke-linejoin="round" />
+  </g>
+
+  <!-- Books & Coffee Cup -->
+  <rect x="285" y="218" width="75" height="16" rx="3" fill="#2B526B" stroke="#1F3A4B" stroke-width="2" />
+  <rect x="280" y="234" width="82" height="18" rx="3" fill="#4A6B82" stroke="#1F3A4B" stroke-width="2" />
+  <rect x="555" y="228" width="34" height="38" rx="6" fill="#FFFDF8" stroke="#8C7B65" stroke-width="2" />
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" fill="none">
+  <defs>
+    <linearGradient id="brandSky" x1="360" y1="20" x2="360" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#101D36" />
+      <stop offset="55%" stop-color="#1F3A4B" />
+      <stop offset="100%" stop-color="#2D4F64" />
+    </linearGradient>
+    <radialGradient id="lampWarm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFE7A0" stop-opacity="0.85" />
+      <stop offset="60%" stop-color="#E9C86A" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#E9C86A" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Warm Room Background -->
+  <rect width="640" height="440" rx="24" fill="#EFECE4" />
+
+  <!-- Arched Window Frame -->
+  <path d="M210 350V170C210 78 285 15 385 15C485 15 560 78 560 170V350H210Z" fill="url(#brandSky)" stroke="#C8B898" stroke-width="8" />
+
+  <!-- Moon & Stars in Window -->
+  <circle cx="365" cy="88" r="38" fill="#2E4A68" />
+  <path d="M365 50C344 50 327 67 327 88C327 109 344 126 365 126C374 126 382 123 388 118C371 119 357 106 357 89C357 72 371 58 388 58C381 53 373 50 365 50Z" fill="#DCE9F5" opacity="0.8" />
+  <path d="M475 58L477 64L483 66L477 68L475 74L473 68L467 66L473 64L475 58Z" fill="#E9C86A" />
+  <path d="M268 95L270 100L275 102L270 104L268 109L266 104L261 102L266 100L268 95Z" fill="#E9C86A" />
+
+  <!-- Window Distant Mountains & Golden River -->
+  <path d="M214 295L275 245L335 280L410 225L485 275L556 235V346H214V295Z" fill="#16293E" />
+  <path d="M335 345C365 310 415 285 395 250C378 220 345 198 375 165" stroke="#E9C86A" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Floating Knowledge Cards in Window -->
+  <g transform="translate(245, 118)">
+    <rect width="64" height="52" rx="9" fill="#FFFFFF" fill-opacity="0.18" stroke="#9BC2E2" stroke-width="1.5" />
+    <circle cx="32" cy="26" r="14" stroke="#F6DF96" stroke-width="2" />
+    <path d="M26 26H38M32 20V32" stroke="#F6DF96" stroke-width="2" stroke-linecap="round" />
+  </g>
+  <g transform="translate(332, 142)">
+    <rect width="68" height="52" rx="9" fill="#FFFFFF" fill-opacity="0.18" stroke="#F6DF96" stroke-width="1.5" />
+    <path d="M14 38L28 24L40 34L54 20" stroke="#F6DF96" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g transform="translate(418, 122)">
+    <rect width="64" height="50" rx="9" fill="#FFFFFF" fill-opacity="0.18" stroke="#9BC2E2" stroke-width="1.5" />
+    <line x1="16" y1="18" x2="48" y2="18" stroke="#DCE9F5" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="16" y1="26" x2="42" y2="26" stroke="#DCE9F5" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="16" y1="34" x2="46" y2="34" stroke="#E9C86A" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Desk Surface -->
+  <path d="M0 340H640V440H0V340Z" fill="#DFD5C3" />
+  <line x1="0" y1="340" x2="640" y2="340" stroke="#C5B69E" stroke-width="3" />
+
+  <!-- Warm Lamp Glow -->
+  <circle cx="305" cy="295" r="65" fill="url(#lampWarm)" />
+  <rect x="292" y="280" width="26" height="32" rx="6" fill="#FFF6D6" stroke="#C2A661" stroke-width="2" />
+  <circle cx="305" cy="296" r="6" fill="#E9C86A" />
+
+  <!-- Stack of 3 Books: AI / TOOLS / CREATIVE -->
+  <g transform="translate(195, 295)">
+    <rect x="12" y="0" width="110" height="20" rx="4" fill="#5E4636" stroke="#1F3A4B" stroke-width="2" />
+    <text x="67" y="14" text-anchor="middle" fill="#F6DF96" font-family="Noto Sans TC, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">AI</text>
+    <rect x="6" y="20" width="122" height="22" rx="4" fill="#2A4D69" stroke="#1F3A4B" stroke-width="2" />
+    <text x="67" y="35" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">TOOLS</text>
+    <rect x="0" y="42" width="134" height="24" rx="5" fill="#1F3A4B" stroke="#101D36" stroke-width="2" />
+    <text x="67" y="58" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">CREATIVE</text>
+  </g>
+
+  <!-- Open Notebook on Desk -->
+  <g transform="translate(275, 345)">
+    <path d="M10 32L95 42L185 28L165 10L95 20L25 12L10 32Z" fill="#FFFDF8" stroke="#8C7B65" stroke-width="2" />
+    <line x1="95" y1="20" x2="95" y2="42" stroke="#C5B69E" stroke-width="2" />
+    <line x1="35" y1="22" x2="80" y2="26" stroke="#B5A68E" stroke-width="1.5" />
+    <line x1="30" y1="28" x2="78" y2="33" stroke="#B5A68E" stroke-width="1.5" />
+    <line x1="110" y1="24" x2="155" y2="19" stroke="#B5A68E" stroke-width="1.5" />
+    <line x1="112" y1="30" x2="160" y2="25" stroke="#B5A68E" stroke-width="1.5" />
+  </g>
+
+  <!-- Creator Silhouette at Right Looking at the Night Sky -->
+  <g transform="translate(430, 175)">
+    <!-- Hair & Head -->
+    <circle cx="95" cy="52" r="34" fill="#3B2B23" />
+    <path d="M68 48C68 25 125 25 128 55C132 88 142 125 130 148C115 150 85 148 75 135C72 110 68 72 68 48Z" fill="#2E211B" />
+    <!-- Face Profile & Warm Cup -->
+    <path d="M62 48C58 58 60 72 70 76L78 76V42L62 48Z" fill="#F7DEC8" />
+    <rect x="35" y="75" width="22" height="26" rx="4" fill="#FFF8E8" stroke="#8C7B65" stroke-width="2" />
+    <!-- Cozy Sweater -->
+    <path d="M45 108C55 92 75 88 105 90C132 92 148 112 152 165H35C32 140 36 122 45 108Z" fill="#F2EAE0" stroke="#C5B69E" stroke-width="2" />
+  </g>
+
+  <!-- Botanical Leaves Accent -->
+  <g transform="translate(20, 290)" fill="#5E7A6E" opacity="0.85">
+    <path d="M10 110C30 75 65 45 110 25" stroke="#4A6358" stroke-width="2.5" stroke-linecap="round" />
+    <ellipse cx="45" cy="65" rx="16" ry="7" transform="rotate(-35 45 65)" />
+    <ellipse cx="75" cy="42" rx="16" ry="7" transform="rotate(-25 75 42)" />
+    <ellipse cx="62" cy="75" rx="15" ry="6" transform="rotate(15 62 75)" />
+    <ellipse cx="92" cy="52" rx="15" ry="6" transform="rotate(20 92 52)" />
+  </g>
+</svg>

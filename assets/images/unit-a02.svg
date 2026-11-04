@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#E6EFF6" />
+  <rect x="24" y="24" width="552" height="292" rx="16" fill="#FFFFFF" stroke="#C5D8E8" stroke-width="2" />
+  <text x="300" y="64" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="18" font-weight="700">AI 回答查證與修正流程示意</text>
+  <!-- 3 Steps -->
+  <g transform="translate(48, 92)">
+    <rect width="150" height="130" rx="12" fill="#F2F7FB" stroke="#8FB8D8" stroke-width="2" />
+    <circle cx="75" cy="36" r="16" fill="#1F3A4B" />
+    <text x="75" y="41" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">01</text>
+    <text x="75" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="15" font-weight="700">辨識關鍵資訊</text>
+    <text x="75" y="102" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">日期、數據、專有名詞</text>
+  </g>
+  <path d="M206 156H220" stroke="#57768A" stroke-width="2.5" stroke-linecap="round" />
+  <g transform="translate(225, 92)">
+    <rect width="150" height="130" rx="12" fill="#FBF7EA" stroke="#E9C86A" stroke-width="2" />
+    <circle cx="75" cy="36" r="16" fill="#1F3A4B" />
+    <text x="75" y="41" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">02</text>
+    <text x="75" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="15" font-weight="700">追問不確定處</text>
+    <text x="75" y="102" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">請 AI 標註推測內容</text>
+  </g>
+  <path d="M383 156H397" stroke="#57768A" stroke-width="2.5" stroke-linecap="round" />
+  <g transform="translate(402, 92)">
+    <rect width="150" height="130" rx="12" fill="#EEF6F0" stroke="#8CC0A1" stroke-width="2" />
+    <circle cx="75" cy="36" r="16" fill="#1F3A4B" />
+    <text x="75" y="41" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">03</text>
+    <text x="75" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="15" font-weight="700">原始來源核對</text>
+    <text x="75" y="102" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">比對官方文件與資料</text>
+  </g>
+  <rect x="48" y="244" width="504" height="44" rx="10" fill="#1F3A4B" />
+  <text x="300" y="271" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="13">提醒：AI 生成內容可能出現看似合理但未經證實的資訊，重要決策前務必交叉查證</text>
+</svg>

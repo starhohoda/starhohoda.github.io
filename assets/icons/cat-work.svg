@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" fill="none">
+  <circle cx="58" cy="54" r="35" fill="#CFE6D8" fill-opacity="0.6" />
+  <!-- Document Card -->
+  <path d="M32 18H68L82 32V76C82 78.8 79.8 81 77 81H32C29.2 81 27 78.8 27 76V23C27 20.2 29.2 18 32 18Z" fill="#FFFFFF" stroke="#1F3A4B" stroke-width="2.6" stroke-linejoin="round" />
+  <path d="M68 18V32H82" fill="#D5E8DC" stroke="#1F3A4B" stroke-width="2.6" stroke-linejoin="round" />
+  <!-- Document Lines -->
+  <line x1="37" y1="34" x2="58" y2="34" stroke="#76A88B" stroke-width="3" stroke-linecap="round" />
+  <line x1="37" y1="43" x2="68" y2="43" stroke="#9BBAA8" stroke-width="2.6" stroke-linecap="round" />
+  <line x1="37" y1="52" x2="62" y2="52" stroke="#9BBAA8" stroke-width="2.6" stroke-linecap="round" />
+  <!-- Bar Chart inside Document -->
+  <rect x="37" y="65" width="6" height="9" rx="1" fill="#8CC0A1" stroke="#1F3A4B" stroke-width="1.8" />
+  <rect x="47" y="60" width="6" height="14" rx="1" fill="#68A883" stroke="#1F3A4B" stroke-width="1.8" />
+  <rect x="57" y="55" width="6" height="19" rx="1" fill="#4B8E68" stroke="#1F3A4B" stroke-width="1.8" />
+  <!-- Rising Process Arrow -->
+  <path d="M52 68L74 48L82 55L98 37" stroke="#1F3A4B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M87 37H98V48" stroke="#1F3A4B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M52 68L74 48L82 55L98 37" stroke="#68A883" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Sparkles -->
+  <path d="M20 34L21.5 38L25.5 39.5L21.5 41L20 45L18.5 41L14.5 39.5L18.5 38L20 34Z" fill="#E9C86A" />
+  <path d="M96 58L97.5 62L101.5 63.5L97.5 65L96 69L94.5 65L90.5 63.5L94.5 62L96 58Z" fill="#E9C86A" />
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#1F3A4B" />
+  <text x="300" y="48" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="18" font-weight="700">AI 輔助簡報內容規劃五步驟</text>
+  <!-- 5 Connected Cards -->
+  <g transform="translate(26, 76)">
+    <rect width="98" height="150" rx="12" fill="#F7F5EF" />
+    <circle cx="49" cy="34" r="15" fill="#1F3A4B" />
+    <text x="49" y="39" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">1</text>
+    <text x="49" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">確定目的</text>
+    <text x="49" y="104" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">教學、提案</text>
+    <text x="49" y="122" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">或進度報告</text>
+  </g>
+  <g transform="translate(138, 76)">
+    <rect width="98" height="150" rx="12" fill="#E6EFF6" />
+    <circle cx="49" cy="34" r="15" fill="#1F3A4B" />
+    <text x="49" y="39" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">2</text>
+    <text x="49" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">設定聽眾</text>
+    <text x="49" y="104" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">初學者、主管</text>
+    <text x="49" y="122" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">或跨部門同事</text>
+  </g>
+  <g transform="translate(250, 76)">
+    <rect width="98" height="150" rx="12" fill="#F9F1DF" />
+    <circle cx="49" cy="34" r="15" fill="#1F3A4B" />
+    <text x="49" y="39" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">3</text>
+    <text x="49" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">建立大綱</text>
+    <text x="49" y="104" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">規劃投影片頁數</text>
+    <text x="49" y="122" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">與每頁主題</text>
+  </g>
+  <g transform="translate(362, 76)">
+    <rect width="98" height="150" rx="12" fill="#E6F2EA" />
+    <circle cx="49" cy="34" r="15" fill="#1F3A4B" />
+    <text x="49" y="39" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">4</text>
+    <text x="49" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">安排順序</text>
+    <text x="49" y="104" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">背景→方法</text>
+    <text x="49" y="122" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">→重點結論</text>
+  </g>
+  <g transform="translate(474, 76)">
+    <rect width="98" height="150" rx="12" fill="#F7F5EF" />
+    <circle cx="49" cy="34" r="15" fill="#1F3A4B" />
+    <text x="49" y="39" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">5</text>
+    <text x="49" y="76" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">檢查一致</text>
+    <text x="49" y="104" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">確認每頁重點</text>
+    <text x="49" y="122" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">扣合核心主題</text>
+  </g>
+  <rect x="26" y="252" width="546" height="52" rx="10" fill="#101D36" stroke="#E9C86A" stroke-width="1.5" />
+  <text x="300" y="283" text-anchor="middle" fill="#FFFDF7" font-family="Noto Sans TC, sans-serif" font-size="13">原則：一頁投影片聚焦一個核心訊息，避免把整段講稿直接塞進畫面</text>
+</svg>

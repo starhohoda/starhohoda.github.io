@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" fill="none">
+  <!-- Soft background circle -->
+  <circle cx="52" cy="56" r="34" fill="#D2E3F0" fill-opacity="0.6" />
+  <!-- Robot Antenna -->
+  <line x1="50" y1="24" x2="50" y2="35" stroke="#1F3A4B" stroke-width="3" stroke-linecap="round" />
+  <circle cx="50" cy="21" r="5" fill="#E9C86A" stroke="#1F3A4B" stroke-width="2.5" />
+  <!-- Robot Ears -->
+  <rect x="16" y="50" width="8" height="16" rx="4" fill="#8FB8D8" stroke="#1F3A4B" stroke-width="2.5" />
+  <rect x="76" y="50" width="8" height="16" rx="4" fill="#8FB8D8" stroke="#1F3A4B" stroke-width="2.5" />
+  <!-- Robot Head -->
+  <rect x="22" y="35" width="56" height="44" rx="20" fill="#FFFFFF" stroke="#1F3A4B" stroke-width="2.8" />
+  <!-- Robot Face Screen -->
+  <rect x="29" y="43" width="42" height="28" rx="13" fill="#1F3A4B" />
+  <!-- Robot Eyes & Smile -->
+  <circle cx="41" cy="55" r="4" fill="#FFFFFF" />
+  <circle cx="59" cy="55" r="4" fill="#FFFFFF" />
+  <path d="M45 63C47 65.5 53 65.5 55 63" stroke="#E9C86A" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Speech Bubble -->
+  <path d="M74 18H102C105.3 18 108 20.7 108 24V38C108 41.3 105.3 44 102 44H86L77 51V44H74C70.7 44 68 41.3 68 38V24C68 20.7 70.7 18 74 18Z" fill="#9BC2E2" stroke="#1F3A4B" stroke-width="2.5" stroke-linejoin="round" />
+  <circle cx="80" cy="31" r="2.2" fill="#1F3A4B" />
+  <circle cx="88" cy="31" r="2.2" fill="#1F3A4B" />
+  <circle cx="96" cy="31" r="2.2" fill="#1F3A4B" />
+  <!-- Sparkles -->
+  <path d="M22 24L23.5 28L27.5 29.5L23.5 31L22 35L20.5 31L16.5 29.5L20.5 28L22 24Z" fill="#E9C86A" />
+  <path d="M94 58L95.5 62L99.5 63.5L95.5 65L94 69L92.5 65L88.5 63.5L92.5 62L94 58Z" fill="#E9C86A" />
+</svg>

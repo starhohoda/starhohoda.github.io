@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" fill="none">
+  <circle cx="58" cy="54" r="35" fill="#F2E2BA" fill-opacity="0.55" />
+  <!-- Laptop Screen -->
+  <rect x="24" y="24" width="60" height="42" rx="5" fill="#1F3A4B" stroke="#1F3A4B" stroke-width="2.6" />
+  <rect x="28" y="28" width="52" height="34" rx="2.5" fill="#DCE9F5" />
+  <!-- Chart line on screen -->
+  <path d="M34 52L45 43L54 47L68 35" stroke="#57768A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="45" cy="43" r="2.5" fill="#1F3A4B" />
+  <circle cx="68" cy="35" r="2.5" fill="#1F3A4B" />
+  <!-- Laptop Base -->
+  <path d="M16 66H92L87 73H21L16 66Z" fill="#B8C9D6" stroke="#1F3A4B" stroke-width="2.6" stroke-linejoin="round" />
+  <!-- Wrench -->
+  <path d="M62 42L79 25C82 22 87 22 90 25L84 31L87 34L93 28C96 31 96 36 93 39L76 56L62 42Z" fill="#9BC2E2" stroke="#1F3A4B" stroke-width="2.4" stroke-linejoin="round" />
+  <!-- Gear -->
+  <circle cx="80" cy="58" r="11" fill="#E9C86A" stroke="#1F3A4B" stroke-width="2.4" />
+  <circle cx="80" cy="58" r="4.5" fill="#FFFFFF" stroke="#1F3A4B" stroke-width="2" />
+  <!-- Magnifying Glass handle -->
+  <line x1="88" y1="66" x2="99" y2="77" stroke="#1F3A4B" stroke-width="4.5" stroke-linecap="round" />
+  <!-- Sparkles -->
+  <path d="M18 36L19.5 40L23.5 41.5L19.5 43L18 47L16.5 43L12.5 41.5L16.5 40L18 36Z" fill="#E9C86A" />
+  <path d="M98 40L99.5 44L103.5 45.5L99.5 47L98 51L96.5 47L92.5 45.5L96.5 44L98 40Z" fill="#E9C86A" />
+</svg>

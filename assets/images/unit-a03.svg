@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#1A2F46" />
+  <!-- Left: 4 Elements of Image Prompt -->
+  <g transform="translate(32, 34)">
+    <rect width="250" height="272" rx="14" fill="#FFFFFF" />
+    <text x="24" y="38" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="16" font-weight="700">圖片提示語四大要素</text>
+    <rect x="24" y="56" width="202" height="42" rx="8" fill="#E6EFF6" />
+    <text x="38" y="82" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">1. 主體：打開的書本與筆記型電腦</text>
+    <rect x="24" y="108" width="202" height="42" rx="8" fill="#F9F1DF" />
+    <text x="38" y="134" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">2. 場景：夜晚窗邊書桌與星空</text>
+    <rect x="24" y="160" width="202" height="42" rx="8" fill="#E6F2EA" />
+    <text x="38" y="186" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">3. 風格：溫和現代數位插畫</text>
+    <rect x="24" y="212" width="202" height="42" rx="8" fill="#F2EFE9" />
+    <text x="38" y="238" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">4. 比例：橫向構圖（如 16:9 / 4:3）</text>
+  </g>
+  <!-- Right: Visual Frame Preview -->
+  <g transform="translate(308, 34)">
+    <rect width="260" height="272" rx="14" fill="#101D36" stroke="#E9C86A" stroke-width="2" />
+    <circle cx="195" cy="76" r="24" fill="#E9C86A" fill-opacity="0.85" />
+    <path d="M20 205L85 142L145 188L205 130L240 165V220H20V205Z" fill="#2A4D6C" />
+    <rect x="65" y="165" width="130" height="42" rx="6" fill="#FFFDF7" stroke="#E9C86A" stroke-width="2" />
+    <text x="130" y="191" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">畫面構圖與元素檢查</text>
+    <text x="130" y="250" text-anchor="middle" fill="#DCE9F5" font-family="Noto Sans TC, sans-serif" font-size="12">檢查手指、文字細節與光影一致性</text>
+  </g>
+</svg>

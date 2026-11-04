@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="moonGrad" x1="20" y1="15" x2="90" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2B526B" />
+      <stop offset="50%" stop-color="#1F3A4B" />
+      <stop offset="100%" stop-color="#101D36" />
+    </linearGradient>
+    <linearGradient id="orbitGrad" x1="8" y1="78" x2="112" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E9C86A" stop-opacity="0.3" />
+      <stop offset="35%" stop-color="#E9C86A" />
+      <stop offset="70%" stop-color="#F6DF96" />
+      <stop offset="100%" stop-color="#E9C86A" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+  <!-- Subtle background glow -->
+  <circle cx="60" cy="60" r="46" fill="#E9C86A" fill-opacity="0.08" />
+  <!-- Back part of orbit ring -->
+  <path d="M16 74C10 62 25 44 54 34C83 24 108 26 111 37" stroke="url(#orbitGrad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 3" opacity="0.6" />
+  <!-- Crescent Moon -->
+  <path d="M72 18C46.5 18 26 38.5 26 64C26 89.5 46.5 110 72 110C83.5 110 94 105.7 102 98.6C96.3 100.2 90.2 100.5 84 99.2C61.5 94.5 47.2 72.5 51.8 50C55.3 33.2 68.5 20.8 84.8 18.7C80.7 18.2 76.4 18 72 18Z" fill="url(#moonGrad)" />
+  <!-- Inner moon highlight -->
+  <path d="M68 23C47 26 32 44 32 65C32 82 42 96 57 102" stroke="#57768A" stroke-width="1.5" stroke-linecap="round" opacity="0.45" />
+  <!-- Front part of golden star orbit -->
+  <path d="M111 37C114 48 94 67 64 78C34 89 13 86 16 74" stroke="url(#orbitGrad)" stroke-width="4" stroke-linecap="round" />
+  <path d="M104 46C98 59 79 73 55 82C35 89 19 88 15 80" stroke="#E9C86A" stroke-width="1.5" stroke-linecap="round" opacity="0.65" />
+  <!-- Four-point stars -->
+  <path d="M84 36L86.5 42.5L93 45L86.5 47.5L84 54L81.5 47.5L75 45L81.5 42.5L84 36Z" fill="#E9C86A" />
+  <path d="M65 46L66.5 50L70.5 51.5L66.5 53L65 57L63.5 53L59.5 51.5L63.5 50L65 46Z" fill="#F6DF96" />
+  <path d="M30 28L31.5 32L35.5 33.5L31.5 35L30 39L28.5 35L24.5 33.5L28.5 32L30 28Z" fill="#E9C86A" />
+  <path d="M98 78L99.5 82L103.5 83.5L99.5 85L98 89L96.5 85L92.5 83.5L96.5 82L98 78Z" fill="#E9C86A" />
+  <circle cx="42" cy="58" r="2" fill="#E9C86A" />
+  <circle cx="95" cy="28" r="2" fill="#F6DF96" />
+  <circle cx="24" cy="92" r="2.2" fill="#E9C86A" />
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="320" y1="0" x2="320" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1528" />
+      <stop offset="45%" stop-color="#142744" />
+      <stop offset="80%" stop-color="#1F3A4B" />
+      <stop offset="100%" stop-color="#162B3B" />
+    </linearGradient>
+    <radialGradient id="bookGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F6DF96" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#E9C86A" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#E9C86A" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="goldTrail" x1="360" y1="360" x2="480" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8E4A4" />
+      <stop offset="50%" stop-color="#E9C86A" />
+      <stop offset="100%" stop-color="#E9C86A" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="glassCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#9BC2E2" stop-opacity="0.08" />
+    </linearGradient>
+  </defs>
+
+  <!-- Night Sky Background -->
+  <rect width="640" height="480" rx="24" fill="url(#skyGrad)" />
+
+  <!-- Subtle Moon / Planet in Upper Center -->
+  <circle cx="310" cy="115" r="68" fill="#243B58" opacity="0.7" />
+  <path d="M310 47C272.4 47 242 77.4 242 115C242 152.6 272.4 183 310 183C325 183 338.8 178.1 350 169.8C322 172 296 150 296 118C296 86 320 62 348 61C337 52.2 324 47 310 47Z" fill="#365577" opacity="0.65" />
+
+  <!-- Starfield -->
+  <circle cx="90" cy="60" r="1.5" fill="#FFF" opacity="0.7" />
+  <circle cx="155" cy="95" r="2" fill="#F6DF96" opacity="0.8" />
+  <circle cx="210" cy="48" r="1.2" fill="#FFF" opacity="0.6" />
+  <circle cx="445" cy="52" r="1.8" fill="#FFF" opacity="0.85" />
+  <circle cx="560" cy="70" r="1.5" fill="#F6DF96" opacity="0.9" />
+  <circle cx="590" cy="145" r="1.5" fill="#FFF" opacity="0.6" />
+  <circle cx="120" cy="180" r="1.5" fill="#FFF" opacity="0.5" />
+  <!-- Four-point Star Sparkles -->
+  <path d="M518 42L521 51L530 54L521 57L518 66L515 57L506 54L515 51L518 42Z" fill="#F6DF96" />
+  <path d="M180 112L182 118L188 120L182 122L180 128L178 122L172 120L178 118L180 112Z" fill="#E9C86A" />
+  <path d="M575 188L577 194L583 196L577 198L575 204L573 198L567 196L573 194L575 188Z" fill="#E9C86A" />
+
+  <!-- Distant Mountains -->
+  <path d="M0 335L75 268L145 318L235 235L320 315L415 248L510 312L585 245L640 295V380H0V335Z" fill="#172A42" />
+  <path d="M235 235L268 310L202 315L235 235Z" fill="#243F5E" opacity="0.6" />
+  <path d="M585 245L612 295L550 302L585 245Z" fill="#243F5E" opacity="0.5" />
+
+  <!-- Calm Night Lake & Reflections -->
+  <rect x="0" y="350" width="640" height="130" fill="#0F2034" />
+  <ellipse cx="360" cy="395" rx="180" ry="28" fill="#E9C86A" fill-opacity="0.16" />
+  <line x1="210" y1="382" x2="340" y2="382" stroke="#E9C86A" stroke-width="1.5" stroke-opacity="0.35" stroke-linecap="round" />
+  <line x1="240" y1="398" x2="410" y2="398" stroke="#E9C86A" stroke-width="1.5" stroke-opacity="0.25" stroke-linecap="round" />
+  <line x1="180" y1="415" x2="320" y2="415" stroke="#9BC2E2" stroke-width="1.2" stroke-opacity="0.25" stroke-linecap="round" />
+
+  <!-- Foreground Shore Rocks -->
+  <path d="M220 395C265 365 340 360 440 365C520 369 590 385 640 410V480H180L220 395Z" fill="#132338" />
+
+  <!-- Golden Glow Behind Open Book -->
+  <circle cx="385" cy="320" r="145" fill="url(#bookGlow)" />
+
+  <!-- Golden Starlight River Trail Rising from Book -->
+  <path d="M385 345C425 315 470 285 455 245C440 205 395 190 420 145C440 110 495 95 535 65" stroke="url(#goldTrail)" stroke-width="14" stroke-linecap="round" opacity="0.35" />
+  <path d="M385 345C425 315 470 285 455 245C440 205 395 190 420 145C440 110 495 95 535 65" stroke="url(#goldTrail)" stroke-width="4" stroke-linecap="round" />
+  <path d="M370 348C405 320 445 292 432 252C418 212 378 195 402 152" stroke="#F6DF96" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 6" />
+
+  <!-- Floating Glass Card 1: AI -->
+  <g transform="translate(215, 130)">
+    <rect width="78" height="64" rx="12" fill="url(#glassCard)" stroke="#9BC2E2" stroke-opacity="0.55" stroke-width="1.5" />
+    <rect x="8" y="8" width="62" height="48" rx="8" fill="#18304C" fill-opacity="0.55" />
+    <text x="39" y="40" text-anchor="middle" fill="#F6DF96" font-family="Noto Sans TC, sans-serif" font-size="24" font-weight="700">AI</text>
+  </g>
+
+  <!-- Floating Glass Card 2: Landscape / Image Generation -->
+  <g transform="translate(335, 85)">
+    <rect width="98" height="74" rx="12" fill="url(#glassCard)" stroke="#F6DF96" stroke-opacity="0.65" stroke-width="1.5" />
+    <rect x="8" y="8" width="82" height="58" rx="7" fill="#1B3552" fill-opacity="0.7" />
+    <circle cx="30" cy="26" r="6" fill="#F6DF96" />
+    <path d="M14 58L38 34L56 50L70 38L84 58H14Z" fill="#57768A" />
+    <path d="M38 34L56 50H22L38 34Z" fill="#E9C86A" fill-opacity="0.75" />
+  </g>
+
+  <!-- Floating Glass Card 3: Document / Content -->
+  <g transform="translate(465, 135)">
+    <rect width="102" height="74" rx="12" fill="url(#glassCard)" stroke="#9BC2E2" stroke-opacity="0.6" stroke-width="1.5" />
+    <rect x="10" y="10" width="82" height="54" rx="7" fill="#1B3552" fill-opacity="0.65" />
+    <rect x="18" y="18" width="22" height="16" rx="3" fill="#E9C86A" fill-opacity="0.85" />
+    <line x1="46" y1="22" x2="80" y2="22" stroke="#DCE9F5" stroke-width="3" stroke-linecap="round" />
+    <line x1="46" y1="31" x2="74" y2="31" stroke="#9BC2E2" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="18" y1="44" x2="82" y2="44" stroke="#9BC2E2" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="18" y1="53" x2="66" y2="53" stroke="#9BC2E2" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Floating Glass Card 4: Data Chart -->
+  <g transform="translate(285, 205)">
+    <rect width="86" height="68" rx="12" fill="url(#glassCard)" stroke="#F6DF96" stroke-opacity="0.55" stroke-width="1.5" />
+    <rect x="8" y="8" width="70" height="52" rx="7" fill="#1B3552" fill-opacity="0.65" />
+    <rect x="20" y="38" width="9" height="14" rx="2" fill="#9BC2E2" />
+    <rect x="34" y="30" width="9" height="22" rx="2" fill="#E9C86A" />
+    <rect x="48" y="22" width="9" height="30" rx="2" fill="#F6DF96" />
+    <rect x="62" y="34" width="6" height="18" rx="1.5" fill="#9BC2E2" />
+  </g>
+
+  <!-- Open Illuminated Book on the Shore -->
+  <g transform="translate(250, 310)">
+    <!-- Book Cover Base -->
+    <path d="M12 52L135 68L258 46L242 36L135 54L26 40L12 52Z" fill="#1E3448" stroke="#E9C86A" stroke-width="1.5" />
+    <!-- Left Page -->
+    <path d="M22 40C55 24 98 24 135 42L135 60C98 44 55 44 18 52L22 40Z" fill="#FFF9EA" stroke="#D9C38A" stroke-width="1.5" />
+    <!-- Right Page -->
+    <path d="M135 42C172 20 215 18 248 34L252 46C215 32 172 36 135 60V42Z" fill="#FFFDF6" stroke="#D9C38A" stroke-width="1.5" />
+    <!-- Subtle text lines on book pages -->
+    <path d="M45 37C68 31 95 33 118 42" stroke="#C5B28A" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M50 44C72 38 96 40 116 48" stroke="#C5B28A" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M152 40C176 30 202 28 226 36" stroke="#C5B28A" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M154 47C178 38 202 36 224 43" stroke="#C5B28A" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Subtle Caption Motto -->
+  <g transform="translate(445, 395) rotate(-6)">
+    <text x="0" y="0" fill="#F7F5EF" font-family="Noto Serif TC, serif" font-size="16" font-weight="600" letter-spacing="1.5">讓學習 ✦</text>
+    <text x="0" y="22" fill="#E9C86A" font-family="Noto Serif TC, serif" font-size="16" font-weight="600" letter-spacing="1.5">成為創作的起點</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#F9F1DF" />
+  <rect x="24" y="24" width="552" height="292" rx="16" fill="#FFFFFF" stroke="#E5D5B5" stroke-width="2" />
+  <text x="300" y="60" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="18" font-weight="700">AI 工具客觀比較紀錄表（操作規劃示範）</text>
+  <!-- Table Header -->
+  <rect x="48" y="82" width="504" height="38" rx="8" fill="#1F3A4B" />
+  <text x="120" y="106" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">比較項目</text>
+  <text x="295" y="106" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">工具 A（如 ChatGPT）</text>
+  <text x="465" y="106" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">工具 B（如 Gemini）</text>
+  <!-- Row 1 -->
+  <rect x="48" y="128" width="504" height="42" rx="6" fill="#F7F5EF" />
+  <text x="120" y="154" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">輸入相同提示語</text>
+  <text x="295" y="154" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">使用完全一致的任務文字</text>
+  <text x="465" y="154" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">使用完全一致的任務文字</text>
+  <!-- Row 2 -->
+  <rect x="48" y="178" width="504" height="42" rx="6" fill="#F2F7FB" />
+  <text x="120" y="204" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">格式與完整性</text>
+  <text x="295" y="204" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">依實際輸出記錄（待實測）</text>
+  <text x="465" y="204" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">依實際輸出記錄（待實測）</text>
+  <!-- Row 3 -->
+  <rect x="48" y="228" width="504" height="42" rx="6" fill="#F7F5EF" />
+  <text x="120" y="254" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">資料查證與修正</text>
+  <text x="295" y="254" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">檢視是否需人工補充修改</text>
+  <text x="465" y="254" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">檢視是否需人工補充修改</text>
+  <text x="300" y="296" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">原則：設定一致標準並記錄真實步驟，避免未經實測就主觀宣稱優劣</text>
+</svg>

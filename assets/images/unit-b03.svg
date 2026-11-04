@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#1F3A4B" />
+  <!-- Source Docs on Left -->
+  <g transform="translate(36, 48)">
+    <rect width="150" height="244" rx="14" fill="#F7F5EF" />
+    <text x="75" y="36" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="15" font-weight="700">1. 匯入來源文件</text>
+    <rect x="22" y="56" width="106" height="44" rx="8" fill="#E6EFF6" />
+    <text x="75" y="83" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="600">會議紀錄 / 講義</text>
+    <rect x="22" y="112" width="106" height="44" rx="8" fill="#F9F1DF" />
+    <text x="75" y="139" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="600">研究筆記 / PDF</text>
+    <rect x="22" y="168" width="106" height="52" rx="8" fill="#E6F2EA" />
+    <text x="75" y="192" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="11" font-weight="600">注意：先移除機密</text>
+    <text x="75" y="208" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">與個人隱私資料</text>
+  </g>
+  <path d="M198 170H222" stroke="#E9C86A" stroke-width="3" stroke-linecap="round" />
+  <!-- Center: Questioning Based on Sources -->
+  <g transform="translate(230, 48)">
+    <rect width="150" height="244" rx="14" fill="#FFFDF8" stroke="#E9C86A" stroke-width="2" />
+    <text x="75" y="36" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="15" font-weight="700">2. 依資料提問</text>
+    <rect x="18" y="64" width="114" height="72" rx="8" fill="#F9F1DF" />
+    <text x="75" y="94" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="600">「請根據上傳文件</text>
+    <text x="75" y="114" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="600">整理三個核心結論」</text>
+    <rect x="18" y="152" width="114" height="68" rx="8" fill="#E6EFF6" />
+    <text x="75" y="182" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="600">限定以來源內容回答</text>
+    <text x="75" y="202" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">減少憑空延伸</text>
+  </g>
+  <path d="M392 170H416" stroke="#E9C86A" stroke-width="3" stroke-linecap="round" />
+  <!-- Right: Check Citations -->
+  <g transform="translate(424, 48)">
+    <rect width="140" height="244" rx="14" fill="#F7F5EF" />
+    <text x="70" y="36" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="15" font-weight="700">3. 核對段落來源</text>
+    <rect x="18" y="64" width="104" height="156" rx="8" fill="#E6F2EA" />
+    <text x="70" y="102" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="700">對照引用出處</text>
+    <text x="70" y="132" text-anchor="middle" fill="#2B3540" font-family="Noto Sans TC, sans-serif" font-size="12">檢查摘要是否與</text>
+    <text x="70" y="152" text-anchor="middle" fill="#2B3540" font-family="Noto Sans TC, sans-serif" font-size="12">原文語意一致</text>
+    <text x="70" y="188" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">（功能概覽）</text>
+  </g>
+</svg>

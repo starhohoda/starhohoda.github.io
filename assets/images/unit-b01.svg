@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#1B3248" />
+  <!-- Browser Window Mockup inside Laptop Concept -->
+  <g transform="translate(36, 30)">
+    <rect width="528" height="280" rx="14" fill="#F7F5EF" stroke="#E9C86A" stroke-width="2" />
+    <rect width="528" height="38" rx="14" fill="#1F3A4B" />
+    <circle cx="22" cy="19" r="5" fill="#E9C86A" />
+    <circle cx="38" cy="19" r="5" fill="#9BC2E2" />
+    <circle cx="54" cy="19" r="5" fill="#8CC0A1" />
+    <text x="264" y="24" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">Google AI Studio 網站建置流程示意</text>
+    <!-- 4 Workflow Cards -->
+    <g transform="translate(24, 62)">
+      <rect width="110" height="135" rx="10" fill="#FFFFFF" stroke="#D5DFE5" stroke-width="1.5" />
+      <text x="55" y="34" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">1. 描述需求</text>
+      <text x="55" y="64" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">規劃頁面架構</text>
+      <text x="55" y="84" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">色彩與導覽</text>
+      <rect x="20" y="102" width="70" height="18" rx="4" fill="#E6EFF6" />
+    </g>
+    <g transform="translate(147, 62)">
+      <rect width="110" height="135" rx="10" fill="#FFFFFF" stroke="#D5DFE5" stroke-width="1.5" />
+      <text x="55" y="34" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">2. 建立原型</text>
+      <text x="55" y="64" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">生成網頁畫面</text>
+      <text x="55" y="84" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">與區塊版型</text>
+      <rect x="20" y="102" width="70" height="18" rx="4" fill="#F9F1DF" />
+    </g>
+    <g transform="translate(270, 62)">
+      <rect width="110" height="135" rx="10" fill="#FFFFFF" stroke="#D5DFE5" stroke-width="1.5" />
+      <text x="55" y="34" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">3. 檢查互動</text>
+      <text x="55" y="64" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">測試選單連結</text>
+      <text x="55" y="84" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">手機與電腦版</text>
+      <rect x="20" y="102" width="70" height="18" rx="4" fill="#E6F2EA" />
+    </g>
+    <g transform="translate(393, 62)">
+      <rect width="110" height="135" rx="10" fill="#FFFFFF" stroke="#D5DFE5" stroke-width="1.5" />
+      <text x="55" y="34" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">4. 匯出與發布</text>
+      <text x="55" y="64" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">區分預覽環境</text>
+      <text x="55" y="84" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">與靜態檔案部署</text>
+      <rect x="20" y="102" width="70" height="18" rx="4" fill="#E6EFF6" />
+    </g>
+    <rect x="24" y="216" width="480" height="42" rx="8" fill="#F9F1DF" stroke="#E9C86A" stroke-width="1.5" />
+    <text x="264" y="242" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="600">功能概覽與操作規劃：區分「即時預覽」、「原始碼匯出」與「正式網站部署」</text>
+  </g>
+</svg>

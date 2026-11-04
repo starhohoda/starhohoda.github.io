@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#13253D" />
+  <circle cx="520" cy="60" r="85" fill="#1F3A4B" opacity="0.6" />
+  <!-- Prompt Structure Flow -->
+  <g transform="translate(36, 42)">
+    <rect width="150" height="110" rx="14" fill="#1E3856" stroke="#9BC2E2" stroke-width="2" />
+    <text x="75" y="34" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">1. 任務與背景</text>
+    <text x="75" y="62" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="13">說明目標讀者</text>
+    <text x="75" y="84" text-anchor="middle" fill="#DCE9F5" font-family="Noto Sans TC, sans-serif" font-size="12">與使用情境</text>
+  </g>
+  <path d="M196 97H218" stroke="#E9C86A" stroke-width="3" stroke-linecap="round" />
+  <g transform="translate(225, 42)">
+    <rect width="150" height="110" rx="14" fill="#1E3856" stroke="#E9C86A" stroke-width="2" />
+    <text x="75" y="34" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">2. 範圍與限制</text>
+    <text x="75" y="62" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="13">設定字數、語氣</text>
+    <text x="75" y="84" text-anchor="middle" fill="#DCE9F5" font-family="Noto Sans TC, sans-serif" font-size="12">避免空泛術語</text>
+  </g>
+  <path d="M385 97H407" stroke="#E9C86A" stroke-width="3" stroke-linecap="round" />
+  <g transform="translate(414, 42)">
+    <rect width="150" height="110" rx="14" fill="#1E3856" stroke="#9BC2E2" stroke-width="2" />
+    <text x="75" y="34" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">3. 輸出格式</text>
+    <text x="75" y="62" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="13">指定條列、表格</text>
+    <text x="75" y="84" text-anchor="middle" fill="#DCE9F5" font-family="Noto Sans TC, sans-serif" font-size="12">或分段步驟</text>
+  </g>
+  <!-- Bottom Prompt Preview Bar -->
+  <g transform="translate(36, 185)">
+    <rect width="528" height="115" rx="14" fill="#FFFFFF" fill-opacity="0.95" />
+    <rect x="20" y="20" width="94" height="26" rx="6" fill="#1F3A4B" />
+    <text x="67" y="38" text-anchor="middle" fill="#E9C86A" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="700">提示語結構示意</text>
+    <text x="20" y="68" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="600">「請以初學者能理解的繁體中文，整理 3 個會議記錄重點，以條列呈現。」</text>
+    <text x="20" y="94" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">清楚的任務目標 ＋ 明確條件 ＋ 指定格式 ＝ 更符合需求的 AI 回覆</text>
+  </g>
+</svg>

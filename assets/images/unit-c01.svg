@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#E6F2EA" />
+  <!-- Spreadsheet Card -->
+  <g transform="translate(32, 28)">
+    <rect width="536" height="284" rx="16" fill="#FFFFFF" stroke="#B8D8C4" stroke-width="2" />
+    <rect width="536" height="44" rx="16" fill="#2B6A48" />
+    <text x="30" y="28" fill="#FFFFFF" font-family="Noto Sans TC, sans-serif" font-size="15" font-weight="700">Excel 試算表資料檢查與整理流程示意</text>
+    <!-- Grid Columns -->
+    <g transform="translate(24, 64)">
+      <rect width="150" height="34" rx="6" fill="#E6F2EA" />
+      <text x="75" y="22" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">步驟 1：檢查欄位名稱</text>
+      <text x="75" y="56" text-anchor="middle" fill="#2B3540" font-family="Noto Sans TC, sans-serif" font-size="12">統一「日期 / 金額 / 類別」</text>
+      <text x="75" y="78" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">避免合併儲存格影響統計</text>
+    </g>
+    <g transform="translate(192, 64)">
+      <rect width="150" height="34" rx="6" fill="#F9F1DF" />
+      <text x="75" y="22" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">步驟 2：找出異常與空白</text>
+      <text x="75" y="56" text-anchor="middle" fill="#2B3540" font-family="Noto Sans TC, sans-serif" font-size="12">檢查漏填數值、重複列</text>
+      <text x="75" y="78" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">與文字型態錯誤</text>
+    </g>
+    <g transform="translate(360, 64)">
+      <rect width="152" height="34" rx="6" fill="#E6EFF6" />
+      <text x="76" y="22" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">步驟 3：統計與驗算</text>
+      <text x="76" y="56" text-anchor="middle" fill="#2B3540" font-family="Noto Sans TC, sans-serif" font-size="12">請 AI 建議公式或樞紐方向</text>
+      <text x="76" y="78" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">人工抽樣核對加總結果</text>
+    </g>
+    <!-- Bottom Sample Table -->
+    <rect x="24" y="168" width="488" height="92" rx="10" fill="#F7F5EF" stroke="#E4E7E8" stroke-width="1.5" />
+    <text x="44" y="196" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">提示語範例：「我有包含『日期、部門、支出項目、金額』四欄的表格，</text>
+    <text x="44" y="220" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="13" font-weight="700">請列出整理前應檢查的異常項目，並說明如何依部門計算月度小計。」</text>
+    <text x="44" y="246" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">重點：先確認欄位結構乾淨，再進行公式統計與分析</text>
+  </g>
+</svg>

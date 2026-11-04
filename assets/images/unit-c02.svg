@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <rect width="600" height="340" rx="20" fill="#F7F5EF" />
+  <rect x="24" y="24" width="552" height="292" rx="16" fill="#FFFFFF" stroke="#D5E4DA" stroke-width="2" />
+  <!-- Left Long Document -->
+  <g transform="translate(48, 52)">
+    <rect width="185" height="236" rx="12" fill="#F2F5F7" stroke="#57768A" stroke-width="2" />
+    <text x="92" y="34" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">原始長篇行政文件</text>
+    <line x1="28" y1="62" x2="156" y2="62" stroke="#9BB0BF" stroke-width="4" stroke-linecap="round" />
+    <line x1="28" y1="82" x2="148" y2="82" stroke="#9BB0BF" stroke-width="4" stroke-linecap="round" />
+    <line x1="28" y1="102" x2="156" y2="102" stroke="#9BB0BF" stroke-width="4" stroke-linecap="round" />
+    <line x1="28" y1="122" x2="132" y2="122" stroke="#9BB0BF" stroke-width="4" stroke-linecap="round" />
+    <line x1="28" y1="148" x2="156" y2="148" stroke="#9BB0BF" stroke-width="4" stroke-linecap="round" />
+    <line x1="28" y1="168" x2="142" y2="168" stroke="#9BB0BF" stroke-width="4" stroke-linecap="round" />
+    <text x="92" y="210" text-anchor="middle" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="12">段落冗長、重點分散</text>
+  </g>
+  <!-- Arrow -->
+  <path d="M255 170H305" stroke="#1F3A4B" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M295 160L307 170L295 180" stroke="#1F3A4B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Right Structured Summary -->
+  <g transform="translate(325, 52)">
+    <rect width="225" height="236" rx="12" fill="#E6F2EA" stroke="#4B8E68" stroke-width="2" />
+    <text x="112" y="34" text-anchor="middle" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="14" font-weight="700">結構化重點與條列</text>
+    <rect x="20" y="52" width="185" height="44" rx="8" fill="#FFFFFF" />
+    <text x="34" y="79" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="600">• 主旨摘要（一句話說明目的）</text>
+    <rect x="20" y="106" width="185" height="44" rx="8" fill="#FFFFFF" />
+    <text x="34" y="133" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="600">• 待辦事項與負責單位條列</text>
+    <rect x="20" y="160" width="185" height="54" rx="8" fill="#F9F1DF" />
+    <text x="34" y="183" fill="#1F3A4B" font-family="Noto Sans TC, sans-serif" font-size="12" font-weight="700">• 人工核對：人名、日期、金額</text>
+    <text x="34" y="202" fill="#57768A" font-family="Noto Sans TC, sans-serif" font-size="11">確保關鍵行政資訊零誤差</text>
+  </g>
+</svg>
